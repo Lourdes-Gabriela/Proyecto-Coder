@@ -1,0 +1,17 @@
+/* clases del Header */
+
+.container {
+    background-color: #5F5F2D;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.headerLinks {
+    font-family: 'Finlandica', sans-serif;
+    text-decoration: none;
+    color: #E0E0E0;
+}
