@@ -1,16 +1,17 @@
 .body {
     margin-top: 0%;
     margin-left: 0%;
-    background-image:url(/img/Otros/fondoDelHeader.png);
+    background-image:url(/img/Otros/FondodelHeader.png);
     background-repeat:no-repeat;
-    background-position:right;
+    background-position: right 155px;
     background-attachment:fixed;
     
 }
 /* clases del Header */
 .container-header {
-    background-color: #5F5F2D; 
+    background-color: #5F5F2D;
     position: fixed;
+    top: 0;
     width: 100%; 
 }
 .container-nav {
@@ -31,9 +32,7 @@
 .link1 {
     grid-area: 2 / 2 / 3 /3;
     align-self: center;
-    justify-self: center;
-    
-    
+    justify-self: center;  
 }
 
 .link2 {
@@ -69,3 +68,18 @@
 }
 
 /* clases del Main */
+.h1 {
+    font-family: 'Bree Serif', serif;
+    font-size: 40px;
+    text-decoration: underline;
+    color: #614827;
+}
+.p-titulo {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 40px;
+    color: #987347;
+}
+.introduccion {
+    margin-top: 250px;
+    text-align: center;
+}
