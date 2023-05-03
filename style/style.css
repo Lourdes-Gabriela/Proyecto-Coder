@@ -1,6 +1,7 @@
 .body {
     margin-top: 0%;
     margin-left: 0%;
+    background-color:#E8D2A5;
     background-image:url(/img/Otros/FondodelHeader.png);
     background-repeat:no-repeat;
     background-position: right 155px;
@@ -59,15 +60,18 @@
 .headerLinks {
     font-family: 'Finlandica', sans-serif;
     text-decoration: none;
-    color: #E0E0E0;
+    color: #E8D2A5;
     font-size: 35px;
 }
 .headerLinks:hover {
     text-decoration: underline;
+    color: #e0e0e0;
     font-size: 40px;
 }
 
 /* clases del Main */
+
+/*section 1*/
 .h1 {
     font-family: 'Bree Serif', serif;
     font-size: 40px;
@@ -77,9 +81,36 @@
 .p-titulo {
     font-family: 'Cormorant Infant', serif;
     font-size: 40px;
-    color: #987347;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 150px;
+    color: #987347;  
 }
-.introduccion {
+.section1 {
     margin-top: 250px;
     text-align: center;
+}
+
+/*section 2*/
+.img-s2 {
+    margin-left: 350px;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+ 
+}
+
+.h3 {
+    font-family: 'Do Hyeon', sans-serif;
+    color: #987347;
+    text-decoration: underline;
+    text-align: end;
+    font-size: 40px;
+   
+    margin-right: 500px;
+}
+.p {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 35px;
+    text-align: end;
 }
