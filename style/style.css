@@ -1,6 +1,11 @@
 .body {
     margin-top: 0%;
     margin-left: 0%;
+    background-image:url(/img/Otros/fondoDelHeader.png);
+    background-repeat:no-repeat;
+    background-position:right;
+    background-attachment:fixed;
+    
 }
 /* clases del Header */
 .container-header {
