@@ -26,8 +26,6 @@
 /*grid*/
 .logo {
     grid-area: 1 / 1 / 4 / 2;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 .link1 {
@@ -54,8 +52,10 @@
     justify-self: center;
 }
 /* Fin Grid */
-.logoHeader {
-    border-radius: 8px;
+img.logoHeader {
+    width: 100px;
+    height: 100px;
+    
 }
 .headerLinks {
     font-family: 'Finlandica', sans-serif;
@@ -93,24 +93,68 @@
 
 /*section 2*/
 .img-s2 {
-    margin-left: 350px;
+    margin-left: 250px;
+    
     height: 500px;
     width: 500px;
     object-fit: cover;
- 
 }
 
 .h3 {
     font-family: 'Do Hyeon', sans-serif;
     color: #987347;
     text-decoration: underline;
-    text-align: end;
+    text-align: center;
     font-size: 40px;
-   
-    margin-right: 500px;
 }
 .p {
     font-family: 'Cormorant Infant', serif;
     font-size: 35px;
-    text-align: end;
+    text-align: center;
+    margin-right: 0px;
+}
+
+/*section 2 Flex*/
+.container-1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+    margin-bottom: 100px;
+}
+.item-1-imgExt{
+    align-items: center;
+}
+.item-1-textoExt{
+    margin-right: 100px;
+    align-items: flex-start;
+}
+
+
+.container-2 {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+    margin-bottom: 100px;
+}
+.item-2-imgInt{
+    align-items: center;
+}
+.item-2-textoInt{
+    margin-right: 100px;
+    align-items: flex-start;
+}
+
+
+.container-3 {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+    margin-bottom: 100px;
+}
+.item-3-imgCar{
+    align-items: center;
+}
+.item-3-imgCar{
+    margin-right: 100px;
+    align-items: flex-start;
 }
