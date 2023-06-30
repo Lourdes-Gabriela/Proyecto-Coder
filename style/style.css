@@ -7,7 +7,7 @@
     background-position: right 155px;
     background-attachment:fixed;
     
-}
+} 
 /* clases del Header */
 .container-header {
     background-color: #5F5F2D;
@@ -52,10 +52,9 @@
     justify-self: center;
 }
 /* Fin Grid */
-img.logoHeader {
-    width: 100px;
-    height: 100px;
-    
+.logoHeader {
+   padding: 10px;
+   border-radius: 10%;
 }
 .headerLinks {
     font-family: 'Finlandica', sans-serif;
@@ -86,7 +85,7 @@ img.logoHeader {
     margin-bottom: 150px;
     color: #987347;  
 }
-.section1 {
+.section-1 {
     margin-top: 250px;
     text-align: center;
 }
@@ -101,12 +100,20 @@ img.logoHeader {
 }
 
 .h3 {
+    text-align: center;
+}
+.h3-link {
     font-family: 'Do Hyeon', sans-serif;
+    font-size: 40px;
     color: #987347;
     text-decoration: underline;
-    text-align: center;
-    font-size: 40px;
 }
+.h3-link:hover {
+    text-decoration: underline;
+    font-size: 45px;
+    color: #614827;
+}
+
 .p {
     font-family: 'Cormorant Infant', serif;
     font-size: 35px;
@@ -157,4 +164,39 @@ img.logoHeader {
 .item-3-imgCar{
     margin-right: 100px;
     align-items: flex-start;
+}
+
+/*Section 3 */
+.section-3 {
+    background-color: #7D5D38;
+    width: 100%; 
+}
+.p-sec3 {
+    font-family: 'Finlandica', sans-serif;
+    font-size: 25px;
+    color: #e0e0e0;
+}
+.a-sec3 {
+    color: #E8D2A5;
+}
+img.img-sec3 {
+    height: 110px;
+}
+
+/*Section 3 Flex */
+.container-sec3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer */
+.footer {
+    background-color: #5F5F2D;
+}
+img.instagram {
+    height: 70px;
+}
+img.tiktok {
+    height: 70px;
 }
