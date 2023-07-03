@@ -93,7 +93,6 @@
 /*section 2*/
 .img-s2 {
     margin-left: 250px;
-    
     height: 500px;
     width: 500px;
     object-fit: cover;
@@ -199,4 +198,11 @@ img.instagram {
 }
 img.tiktok {
     height: 70px;
+}
+/* Flex footer */
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
 }
